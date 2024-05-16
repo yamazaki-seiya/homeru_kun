@@ -13,7 +13,7 @@ SLACK_TOKEN = os.environ['SLACK_TOKEN']
 CHANNEL_ID = os.environ['CHANNEL_ID']
 CLIENT = WebClient(token=SLACK_TOKEN)
 _TRACE_BACK_DAYS = 7
-_EXTRACT_USER_PATTERN = re.compile(r'<@\w*>')
+_EXTRACT_USER_PATTERN = re.compile(r'(<@\w*>)|(<\!subteam\^.*>)')
 
 
 def post_award_best_home_weekly() -> None:
