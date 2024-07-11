@@ -2,9 +2,9 @@
 [![flake8](https://github.com/yamazaki-seiya/homeru_kun/actions/workflows/flake8.yml/badge.svg)](https://github.com/yamazaki-seiya/homeru_kun/actions/workflows/flake8.yml)
 [![pyright](https://github.com/yamazaki-seiya/homeru_kun/actions/workflows/pyright.yml/badge.svg)](https://github.com/yamazaki-seiya/homeru_kun/actions/workflows/pyright.yml)
 
-## homeru_kun
+## nobiru_kun
 
-褒めるくんを作る
+ノビルくんを作る
 
 ## 開発環境
 
